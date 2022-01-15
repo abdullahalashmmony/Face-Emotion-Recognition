@@ -1,5 +1,9 @@
 -i https://pypi.org/simple
+<<<<<<< HEAD
 absl-py==0.9.0
+=======
+absl-py==0.10.0
+>>>>>>> e5151adb4 (final)
 astunparse==1.6.3
 attrs==19.3.0
 backcall==0.1.0
@@ -13,12 +17,21 @@ decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
 flask==1.1.2
+<<<<<<< HEAD
 gast==0.3.3
 google-auth-oauthlib==0.4.1
 google-auth==1.15.0
 google-pasta==0.2.0
 grpcio==1.29.0
 h5py==2.10.0
+=======
+gast==0.4.0
+google-auth-oauthlib==0.4.1
+google-auth==1.15.0
+google-pasta==0.2.0
+grpcio==1.37.0
+h5py==3.1.0
+>>>>>>> e5151adb4 (final)
 idna==2.9
 importlib-metadata==1.6.0 ; python_version < '3.8'
 ipykernel==5.2.1
@@ -34,7 +47,11 @@ jupyter-core==4.6.3
 jupyterlab-server==1.1.4
 jupyterlab==2.1.2
 keras-preprocessing==1.1.2
+<<<<<<< HEAD
 kiwisolver==1.2.0
+=======
+kiwisolver==1.3.2
+>>>>>>> e5151adb4 (final)
 livelossplot==0.5.0
 markdown==3.2.2
 markupsafe==1.1.1
@@ -43,12 +60,21 @@ mistune==0.8.4
 nbconvert==5.6.1
 nbformat==5.0.6
 notebook==6.0.3
+<<<<<<< HEAD
 numpy==1.18.4
 oauthlib==3.1.0
 opencv-python==4.2.0.34
 opt-einsum==3.2.1
 packaging==20.4
 pandas==1.0.3
+=======
+numpy==1.19.2
+oauthlib==3.1.0
+opencv-python==4.5.5.62
+opt-einsum==3.3.0
+packaging==20.4
+pandas==1.3.5
+>>>>>>> e5151adb4 (final)
 pandocfilters==1.4.2
 parso==0.7.0
 pexpect==4.8.0 ; sys_platform != 'win32'
@@ -56,7 +82,11 @@ pickleshare==0.7.5
 pillow==7.1.2
 prometheus-client==0.7.1
 prompt-toolkit==3.0.5
+<<<<<<< HEAD
 protobuf==3.12.0
+=======
+protobuf==3.19.1
+>>>>>>> e5151adb4 (final)
 ptyprocess==0.6.0 ; os_name != 'nt'
 pyasn1-modules==0.2.8
 pyasn1==0.4.8
@@ -69,6 +99,7 @@ pyzmq==19.0.1
 requests-oauthlib==1.3.0
 requests==2.23.0
 rsa==4.0
+<<<<<<< HEAD
 scipy==1.4.1 ; python_version >= '3'
 seaborn==0.10.1
 send2trash==1.5.0
@@ -77,6 +108,16 @@ tensorboard-plugin-wit==1.6.0.post3
 tensorboard==2.2.1
 tensorflow-estimator==2.2.0
 tensorflow==2.2.0
+=======
+scipy==1.7.3 ; python_version >= '3'
+seaborn==0.10.1
+send2trash==1.5.0
+six==1.15.0
+tensorboard-plugin-wit==1.6.0.post3
+tensorboard==2.6.0
+tensorflow-estimator==2.6.0
+tensorflow==2.6.2
+>>>>>>> e5151adb4 (final)
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
@@ -86,6 +127,12 @@ urllib3==1.25.9
 wcwidth==0.1.9
 webencodings==0.5.1
 werkzeug==1.0.1
+<<<<<<< HEAD
 wheel==0.34.2 ; python_version >= '3'
 wrapt==1.12.1
 zipp==3.1.0
+=======
+wheel==0.35.0 ; python_version >= '3'
+wrapt==1.12.1
+zipp==3.1.0
+>>>>>>> e5151adb4 (final)
