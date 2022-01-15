@@ -1,6 +1,5 @@
 FROM python:3.8-slim-buster
-ENV TERM=xterm
-ENV DEBIAN_FRONTEND=noninteractive
+WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libopencv-dev \
@@ -8,12 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-WORKDIR /app
-ADD . /app
 
-ENV PYTHONUNBUFFERED=1
-ENV PYTHONPATH=/app
-
-
+COPY requirements.txt .
+RUN pip install --upgrade pip && pip install -r requirements.txt
+COPY . .
 CMD ["python", "main.py"]
-
